@@ -25,6 +25,6 @@ hs_err_pid*
 /.metadata/
 /out/
 /.idea/
-/LeetCode/
+
 *.iml
 
