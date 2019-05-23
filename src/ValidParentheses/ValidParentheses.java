@@ -39,6 +39,10 @@ import java.util.Stack;
  *
  */
 
+/**Result:
+ * Runtime: 3 ms, faster than 50.72% of Java online submissions for Valid Parentheses.
+ * Memory Usage: 33.2 MB, less than 100.00% of Java online submissions for Valid Parentheses.
+ */
 public class ValidParentheses {
 
     static Map<Character,Character> map = new HashMap<>();
@@ -79,6 +83,7 @@ public class ValidParentheses {
                 }
             }
         }
+        //return stack.isEmpty();这样写或许更方便,但是防止自己看不懂
         if(!stack.isEmpty()){
             return false;
         }
