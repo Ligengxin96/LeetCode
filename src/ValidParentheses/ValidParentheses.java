@@ -41,9 +41,9 @@ import java.util.Stack;
 
 public class ValidParentheses {
 
-    private static Map<Character,Character> map = new HashMap<>();
+    static Map<Character,Character> map = new HashMap<>();
 
-    private static boolean check(String symbol){
+    public static boolean check(String symbol){
 
         //长度为0
         if(symbol.length() == 0) {
