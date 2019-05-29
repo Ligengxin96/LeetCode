@@ -38,7 +38,7 @@ package RemoveDuplicatesFromSortedArray;
  *     print(nums[i]);
  * }
  */
-public class RemoveDuplicatesFromSortedArray {
+public class MyWay {
 
     private static int removeDuplicates(int[] nums) {
         //计数器
