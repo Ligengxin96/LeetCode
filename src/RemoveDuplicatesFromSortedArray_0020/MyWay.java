@@ -1,4 +1,4 @@
-package RemoveDuplicatesFromSortedArray;
+package RemoveDuplicatesFromSortedArray_0020;
 
 /**
  * 26. Remove Duplicates from Sorted Array

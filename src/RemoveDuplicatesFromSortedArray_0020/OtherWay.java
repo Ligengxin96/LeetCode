@@ -1,4 +1,4 @@
-package RemoveDuplicatesFromSortedArray;
+package RemoveDuplicatesFromSortedArray_0020;
 
 /**
  * 结果是对的

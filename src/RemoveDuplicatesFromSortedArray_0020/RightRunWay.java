@@ -1,4 +1,4 @@
-package RemoveDuplicatesFromSortedArray;
+package RemoveDuplicatesFromSortedArray_0020;
 
 public class RightRunWay {
     public static int removeDuplicates(int[] nums) {

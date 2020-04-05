@@ -1,2 +1,3 @@
 # LeetCode
 LeetCode经典题目
+目的为了学习算法,不忘记java语法以及熟悉idea的使用
