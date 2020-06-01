@@ -1,9 +1,9 @@
-package MyPow_050;
+package MyPow_0050;
 
 /**
  * @author : Mr.Li
  * @version : V1.0
- * @packageName :  MyPow_050
+ * @packageName :  MyPow_0050
  * @created : 2020/4/30
  * @description :
  */
