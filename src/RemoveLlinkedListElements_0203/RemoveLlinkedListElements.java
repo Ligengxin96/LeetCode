@@ -1,5 +1,7 @@
 package RemoveLlinkedListElements_0203;
 
+import Utils.ListNode;
+
 import java.util.WeakHashMap;
 
 /**
@@ -10,18 +12,24 @@ import java.util.WeakHashMap;
  * @description : https://leetcode.com/problems/remove-linked-list-elements/
  */
 public class RemoveLlinkedListElements {
-//    // 解除注释可以直接在leetcdoe上运行
-//    public ListNode removeElements(ListNode head, int val) {
-//        ListNode virtualHead = new ListNode(-1);
-//        virtualHead.next = head;
-//        ListNode perNode = virtualHead;
-//        while(perNode != null && perNode.next != null) {
-//            if (perNode.next.val == val) {
-//                perNode.next = perNode.next.next;
-//            } else {
-//                perNode = perNode.next;
-//            }
-//        }
-//        return virtualHead.next;
-//    }
+    public static ListNode removeElements(ListNode head, int val) {
+        ListNode virtualHead = new ListNode(-1);
+        virtualHead.next = head;
+        ListNode perNode = virtualHead;
+        while(perNode != null && perNode.next != null) {
+            if (perNode.next.val == val) {
+                perNode.next = perNode.next.next;
+            } else {
+                perNode = perNode.next;
+            }
+        }
+        return virtualHead.next;
+    }
+
+    public static void main(String[] args) {
+        int[] nums = {1,2,6,3,4,5,6};
+        int val = 6;
+        ListNode head = new ListNode(nums);
+        System.out.printf(removeElements(head, val).toString());
+    }
 }
