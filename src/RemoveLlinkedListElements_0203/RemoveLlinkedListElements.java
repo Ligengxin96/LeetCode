@@ -7,7 +7,7 @@ import java.util.WeakHashMap;
  * @version : V1.0
  * @packageName :  RemoveLlinkedListElements_0203
  * @created : 2020/6/1
- * @description :
+ * @description : https://leetcode.com/problems/remove-linked-list-elements/
  */
 public class RemoveLlinkedListElements {
 //    // 解除注释可以直接在leetcdoe上运行
