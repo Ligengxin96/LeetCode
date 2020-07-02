@@ -15,7 +15,7 @@ import java.util.Stack;
  */
 public class BinaryTreeInorderTraversal {
 //    递归解法
-//    public static List<Integer> inorderTraversal(TreeNode root) {
+//    public List<Integer> inorderTraversal(TreeNode root) {
 //        List result = new ArrayList();
 //        inorderTraversal(root, result);
 //        return result;
@@ -31,7 +31,7 @@ public class BinaryTreeInorderTraversal {
 //    }
 
     // 非递归解法
-    public static List<Integer> inorderTraversal(TreeNode root) {
+    public List<Integer> inorderTraversal(TreeNode root) {
         List result = new ArrayList();
         Stack<TreeNode> stack = new Stack();
         TreeNode currentNode = root;
